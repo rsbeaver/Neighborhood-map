@@ -56,6 +56,8 @@ const MyMapComponent = withScriptjs(
               </Marker>
             );
           })}
+      gm_authfailure() =>{" "}
+      {"Failed to load Google Maps! Please refresh page to try again."}
     </GoogleMap>
   ))
 );

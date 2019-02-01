@@ -10,7 +10,9 @@ Much of this product follows closely the example detailed by Forrest Walker in h
 
 Either clone or download the repo file. You will need to have React installed in the directory; this project was created with _Create React App_ (https://gitjub.com/facebook/create-reat-app). Running the map project in developer mode is done with the command "npm start" in the directory's terminal window. Thsi will start the development server and open your browser. If the browser doesn't open you can manually navigate to http://localhost:3000 to view the project.
 
-If you wish to make a production build of the project follow the directions at (https://facebook.github.io/create-react-app/docs/deployment).
+## Building (Publishing) the Project
+
+In order to utilize the service worker OFFLINE FUNCTIONALITY of this project it is necessary to make a production build. This can be done with the command "npm build" in the directory's terminal window. If you wish to make a production build of the project follow the directions at (https://facebook.github.io/create-react-app/docs/deployment). In order to host the pages on GitHub please review and follow the instructions for gh-pages on the aforementioned docs.
 
 ## Dependencies
 
